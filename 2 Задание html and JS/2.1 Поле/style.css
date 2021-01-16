@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+tr {
+    display: flex;
+    flex-wrap: wrap;
+}
+tr td {
+    border: 1px solid black;
+    height: 28px!important;
+    width: 28px;
+}
+
+.selected {
+    background: black;
+    transition: .3s;
+}
